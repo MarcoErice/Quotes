@@ -42,6 +42,21 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Core\Columns\QuoteAuthor\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f04ad18e-f22e-44f3-b6bf-2b0a5734e53d}</SharePointProjectItemId>
+    </None>
+    <None Include="Core\Columns\QuoteText\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ed90a763-f6ec-4cae-ba60-6dd10441df03}</SharePointProjectItemId>
+    </None>
+    <None Include="Core\ContentTypes\Quote\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{01f17be3-1ccd-4dd7-942f-5dda94dc946d}</SharePointProjectItemId>
+    </None>
+    <None Include="Core\Lists\Quotes\QuotesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a410dd82-1adc-4bf2-b5df-fc28cab2fd2e}</SharePointProjectItemId>
+    </None>
+    <None Include="Core\Lists\Quotes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e9c381ad-27a5-4c17-879d-d3c9c9825ef9}</SharePointProjectItemId>
+    </None>
     <None Include="Core\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8c4197b1-ed35-4152-8ee8-2ba4e67f6efe}</SharePointProjectItemId>
     </None>
@@ -49,7 +64,13 @@
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{24a91eee-16c0-4bf0-8db5-10ec83a0d84b}</SharePointProjectItemId>
     </None>
+    <Content Include="Core\Columns\QuoteAuthor\Elements.xml" />
+    <Content Include="Core\Columns\QuoteText\Elements.xml" />
+    <Content Include="Core\ContentTypes\Quote\Elements.xml" />
     <Content Include="Core\Elements.xml" />
+    <Content Include="Core\Lists\Quotes\Elements.xml" />
+    <Content Include="Core\Lists\Quotes\QuotesInstance\Elements.xml" />
+    <Content Include="Core\Lists\Quotes\Schema.xml" />
     <Content Include="Core\Sample.txt" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
@@ -101,11 +122,7 @@
       <SubType>Designer</SubType>
     </AppManifestFile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Core\Columns\" />
-    <Folder Include="Core\ContentTypes\" />
-    <Folder Include="Core\Lists\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

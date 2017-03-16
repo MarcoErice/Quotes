@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Quotes" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Quotes" Description="My List Instance">
+
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="QouteAuthor">Albert Einstein</Field>
+          <Field Name="QouteText">The only source of knowledge is experience</Field>
+        </Row>
+      </Rows>
+    </Data>
+    
+    
+    
+  </ListInstance>
+</Elements>

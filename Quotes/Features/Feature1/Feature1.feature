@@ -6,5 +6,10 @@
     <projectItemReference itemId="1ce9c8d6-c423-49cf-8209-a3fec4436cc7" />
     <projectItemReference itemId="078b3396-084a-469a-8ca4-f608c1ffc962" />
     <projectItemReference itemId="8c4197b1-ed35-4152-8ee8-2ba4e67f6efe" />
+    <projectItemReference itemId="01f17be3-1ccd-4dd7-942f-5dda94dc946d" />
+    <projectItemReference itemId="f04ad18e-f22e-44f3-b6bf-2b0a5734e53d" />
+    <projectItemReference itemId="ed90a763-f6ec-4cae-ba60-6dd10441df03" />
+    <projectItemReference itemId="a410dd82-1adc-4bf2-b5df-fc28cab2fd2e" />
+    <projectItemReference itemId="e9c381ad-27a5-4c17-879d-d3c9c9825ef9" />
   </projectItems>
 </feature>
