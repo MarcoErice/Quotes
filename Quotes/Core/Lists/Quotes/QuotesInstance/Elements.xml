@@ -5,8 +5,8 @@
     <Data>
       <Rows>
         <Row>
-          <Field Name="QouteAuthor">Albert Einstein</Field>
-          <Field Name="QouteText">The only source of knowledge is experience</Field>
+          <Field Name="QuoteAuthor">Albert Einstein</Field>
+          <Field Name="QuoteText">The only source of knowledge is experience</Field>
         </Row>
       </Rows>
     </Data>
